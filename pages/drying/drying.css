@@ -1,0 +1,72 @@
+.drybg{width: 100%; position: relative; margin: 0 auto; padding:10px 0 60px;background: #fff;box-shadow: 0 0 4px #ddd;}
+.drySection{width: 100%;position: relative;border-bottom: 1px solid #eee; padding:10px 15px 20px; }
+.dryTop h1{position: relative;width: 100%; display: block; padding-right: 120px;}
+.dryTop h1::before{width: 4px; height: 16px; background: #237bdf; border-radius: 4px; position: absolute;}
+.tgButton{position: absolute;right: 10px;top:0px; width: 120px;}
+.tgButton .tgButtonTxt{position: relative;display: inline-block;margin-right: 10px;}
+.tgButton .toggle-button-wrapper{position: relative;display: inline-block; top: 6px;}
+#toggle-button{ display: none; }
+.button-label{
+	position: relative;
+	display: inline-block;
+	width: 66px;
+	height: 24px;
+	background-color: #ccc;
+	box-shadow: #ccc 0px 0px 0px 2px;
+	border-radius: 24px;
+	overflow: hidden;
+}
+.circle{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+	background-color: #fff;
+}
+.button-label .text {
+	line-height: 24px;
+	font-size: 12px;
+	text-shadow: 0 0 2px #ddd;
+}
+.on { color: #fff; display: none; text-indent: 10px;}
+.off { color: #fff; display: inline-block; text-indent: 30px;}
+.button-label .circle{
+	left: 0;
+	transition: all 0.3s;
+}
+#toggle-button:checked + label.button-label .circle{
+	left: 42px;
+}
+#toggle-button:checked + label.button-label .on{ display: inline-block; }
+#toggle-button:checked + label.button-label .off{ display: none; }
+#toggle-button:checked + label.button-label{
+	background-color: #237bdf;
+}
+.temp{display: block;border-bottom:1px solid #e3b015;width: 80%;margin: 10px auto;position: relative; padding: 15px 0; font-size: 140%;color: #e3b015;}
+.temp2{display: block;border-bottom:1px solid #237bdf;width: 60%;margin: 10px auto;position: relative; font-size: 120%; padding: 15px 0;text-align: center; color: #555;}
+.temp2 span{display: block;font-size: 180%;margin-bottom: 15px;}
+.oil{color: #237bdf;text-align: center;position: relative;display:block;font-size: 110%;}
+.car{position: relative; padding: 5px 0 0; font-size: 120%;color: #555; text-align: center;}
+.car .carTxt{background: #999; color: #fff;text-align: center;width: 200px; margin-left: 10px; height: 42px; font-size: 100%;}
+.stateBg{width: 100%; position: relative; margin: 0 auto; justify-content: space-between; display: flex; text-align: center;align-items: center; padding: 15px 0 0; }
+.stateBg li{text-align: center; font-size: 110%;}
+.stateBg img{width: 40px;height: 40px;display: block; margin: 20px auto 0;}
+.stateBg img.spin{-webkit-animation:circle 1s infinite linear;/*匀速 循环*/}
+@-webkit-keyframes circle{
+
+0%{ transform:rotate(0deg); }
+
+100%{ transform:rotate(-360deg); }
+
+}
+.detailTemp{width: 100%; position: relative; margin: 0 auto; padding: 15px 0 0; }
+.detailTemp li{float: left; text-align: center; margin-bottom: 5px;line-height: 20px;color: #555;}
+.tt{text-align: center; font-size: 120%;  margin-top: 10px; display: block;}
+.funcBg{width: 100%; position: relative; margin: 0 auto; padding: 10px 0 0; }
+.funcBg li{float: left; text-align: center; margin-bottom: 10px;}
+.funcBg li a{width: 150px; background: #237bdf; color: #fff; height: 42px;line-height: 42px; border-radius: 4px;display: inline-block;font-size: 110%;}
+.alarmBg{width: 100%; position: relative; margin: 10px auto 0; padding: 10px 0 0; }
+.alarmBg li{float: left; text-align: center; margin-bottom: 10px; margin-right: 10px;}
+.alarmBg li a{background: #e85757; color: #fff;  border-radius: 4px;display: inline-block;font-size: 100%; padding: 4px 10px; line-height: 20px;}

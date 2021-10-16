@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <title>正泰智慧畜牧数字化平台</title>
+    <link rel="stylesheet" href="../../css/reset.css" />
+    <link rel="stylesheet" href="../../css/base.css" />
+    <link rel="stylesheet" href="../../css/fontello.css" />
+    <link rel="stylesheet" href="myEquipment.css" />
+    <script type="text/javascript" src="../../libs/jquery.js"></script>
+  </head>
+  <body>
+    <header class="topbox">
+      <div class="goback">
+        <a href="javascript:history.go(-1)" class="icon-angle-left"></a>
+      </div>
+      <h1>我的设备</h1>
+    </header>
+    <article class="detailbg" style="margin-bottom: 5px">
+      <div class="searchBg">
+        <input
+          type="search"
+          placeholder="输入名称/编号查询/地理位置筛选"
+          class="searchTxt"
+        />
+        <a href="#" class="icon-search-1 searchBtn"></a>
+      </div>
+    </article>
+    <article class="listbg">
+      <div class="list">
+        <a href="../drying/drying.html">
+          <div class="listTop">
+            <h1>牧歌</h1>
+            <span>状态:离线</span>
+            <div class="clear"></div>
+          </div>
+          <div class="listCon">
+            <p>一次网：--&#176;C</p>
+          </div>
+        </a>
+      </div>
+    </article>
+    <div id="footer"></div>
+    <script>
+      $(document).ready(function () {
+        $('#footer').load('../footer/footer.html');
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <title>正泰智慧畜牧数字化平台</title>
+    <link rel="stylesheet" href="../../css/reset.css" />
+    <link rel="stylesheet" href="../../css/base.css" />
+    <link rel="stylesheet" href="../../css/fontello.css" />
+    <link rel="stylesheet" href="wash.css" />
+    <script type="text/javascript" src="../../libs/jquery.js"></script>
+  </head>
+  <body>
+    <header class="topbox">
+      <div class="goback">
+        <a href="javascript:history.go(-1)" class="icon-angle-left"></a>
+      </div>
+      <h1>洗消房</h1>
+    </header>
+    <article class="washbg">
+      <div class="section">
+        <div class="tt">测试洗消</div>
+        <div class="ttRight"><img src="../../images/item_2.png" />洗消中</div>
+        <div class="ttP">预计剩余时间：0分钟</div>
+      </div>
+      <div class="section">
+        <div class="tt">车辆信息</div>
+        <div class="car">
+          车牌号<input type="text" value="-" class="carTxt" />
+          <div class="clear"></div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="tt">洗消流程</div>
+        <ul class="stateRight">
+          <li class="s1">已完成</li>
+          <li class="s2">进行中</li>
+          <li class="s3">待进行</li>
+        </ul>
+        <div class="clear"></div>
+        <div class="lc">
+          <a href="#">高压水</a>
+          <span class="arrow1"></span>
+          <a href="#">药水1</a>
+          <span class="arrow1"></span>
+          <a href="#">药水2</a>
+          <span class="arrow1"></span>
+          <a href="#">药水3</a>
+          <span class="arrow2"></span>
+          <a href="#">无</a>
+          <a href="#" style="margin-left: 225px">药水4</a>
+          <span
+            class="arrow4"
+            style="margin-left: -350px; margin-top: 55px"
+          ></span>
+          <span class="arrow2"></span>
+          <a href="#">高压水</a>
+          <span class="arrow3"></span>
+          <a href="#">无</a>
+          <span class="arrow3"></span>
+          <a href="#">清洁水</a>
+          <span class="arrow3"></span>
+          <a href="#">药水5</a>
+
+          <div class="clear"></div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="tt">设备操作</div>
+        <ul class="funcBg w2">
+          <li><a href="../car/car.html">车辆预约</a></li>
+          <li><a href="#">洗消历史</a></li>
+          <li><a href="../alarm/alarm.html">报警历史</a></li>
+        </ul>
+        <div class="clear"></div>
+      </div>
+      <div class="section">
+        <h1 class="tt">系统报警信息</h1>
+        <ul class="alarmBg">
+          <li><a href="#">摆杆过载</a></li>
+          <li><a href="#">行价过载</a></li>
+          <li><a href="#">车表泵1过载</a></li>
+          <li><a href="#">车表泵2过载</a></li>
+          <li><a href="#">系统急停</a></li>
+          <li><a href="#">轮胎清洗泵过载</a></li>
+          <li><a href="#">人工清洗泵过载</a></li>
+        </ul>
+        <div class="clear"></div>
+      </div>
+    </article>
+    <div id="footer"></div>
+    <script>
+      $(document).ready(function () {
+        $('#footer').load('../footer/footer.html');
+      });
+    </script>
+  </body>
+</html>

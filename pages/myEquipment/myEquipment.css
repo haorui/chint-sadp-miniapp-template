@@ -1,0 +1,88 @@
+.detailbg {
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+  padding: 10px;
+  background: #fff;
+  box-shadow: 0 0 4px #ddd;
+}
+.searchBg {
+  position: relative;
+  text-align: left;
+  width: 100%;
+  display: block;
+}
+.searchTxt {
+  height: 36px;
+  line-height: 36px;
+  padding: 0 40px 0 14px;
+  position: relative;
+  width: 100%;
+  background: #eee;
+  border-radius: 20px;
+  border: 0;
+  outline: none;
+}
+.searchBtn {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+}
+.listbg {
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+  padding: 10px;
+  background: #fff;
+  box-shadow: 0 0 4px #ddd;
+}
+.list {
+  position: relative;
+  font-size: 14px;
+  color: #333;
+  line-height: 20px;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px 5px;
+  border-bottom: 1px solid #f3f3f3;
+}
+.listTop {
+  width: 100%;
+  position: relative;
+  line-height: 30px;
+  margin-bottom: 5px;
+}
+.listTop h1 {
+  width: calc(100% - 105px);
+  float: left;
+  font-size: 110%;
+  font-weight: bold;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-left: 15px;
+  color: #333;
+}
+.listTop h1::before {
+  content: '';
+  width: 5px;
+  height: 16px;
+  background: #00a656;
+  position: absolute;
+  top: 8px;
+  left: 0;
+  border-radius: 20px;
+}
+.listTop span {
+  width: 100px;
+  float: left;
+  color: red;
+  text-align: right;
+  font-size: 110%;
+}
+.listCon {
+  padding: 5px 0 10px 15px;
+}
+.listCon p {
+  font-size: 100%;
+  color: #666;
+}

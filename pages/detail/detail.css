@@ -1,0 +1,13 @@
+.detailbg{width: 100%; position: relative; margin: 0 auto; padding:10px 10px 20px;background: #fff;box-shadow: 0 0 4px #ddd;}
+.form{width: 100%;position: relative;}
+.form dl{position:relative;font-size:100%; color:#555; width: 100%; margin-bottom:10px; border-bottom: 1px solid #f3f3f3;display: block; padding: 10px 20px; height: 50px;}
+.form dt{ width: 110px; padding: 0; padding-right: 5px;float:left;text-align:left; vertical-align:middle;}
+.form dd{ padding:0 1px; float:right; width:calc(100% - 115px); vertical-align:middle;min-height: 38px; text-align: right;  color: #333;}
+.btn{margin-top: 20px;}
+.timebg{position: relative;text-align: right;float: right; margin-top: 5px;}
+.timebg a{ display: inline-block; width: 100px; background: #237bdf;color: #fff;border-radius: 5px; margin-left: 5px; height: 36px; line-height: 36px; text-align: center;}
+.searchBg{position: relative;text-align:left;width: 180px; float: left; margin-top: 5px;}
+.searchTxt{height: 36px;line-height: 36px; padding:0 40px 0 14px; position: relative; width: 100%;background: #eee;border-radius: 20px;border: 0;outline: none;}
+.searchBtn{ position: absolute; right: 10px; top: 8px;}
+.detailbg .tt{font-size: 110%; padding: 0 10px 0 20px; line-height: 30px; margin-bottom: 20px;position: relative;}
+.detailbg .tt::after{content: '';width: 5px; height: 16px; background: #01cd6c; position: absolute; top:0; left:4px;border-radius: 20px; margin-top: 7px;}

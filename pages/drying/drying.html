@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <title>正泰智慧畜牧数字化平台</title>
+    <link rel="stylesheet" href="../../css/reset.css" />
+    <link rel="stylesheet" href="../../css/base.css" />
+    <link rel="stylesheet" href="../../css/fontello.css" />
+    <link rel="stylesheet" href="drying.css" />
+    <script type="text/javascript" src="../../libs/jquery.js"></script>
+  </head>
+  <body>
+    <header class="topbox">
+      <div class="goback">
+        <a href="javascript:history.go(-1)" class="icon-angle-left"></a>
+      </div>
+      <h1>烘干房</h1>
+    </header>
+    <article class="drybg">
+      <div class="drySection dryTop">
+        <h1>烘干测试</h1>
+        <div class="tgButton">
+          <p class="tgButtonTxt">启动</p>
+          <div class="toggle-button-wrapper">
+            <input type="checkbox" id="toggle-button" name="switch" />
+            <label for="toggle-button" class="button-label">
+              <span class="circle"></span>
+              <span class="text on">ON</span>
+              <span class="text off">OFF</span>
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="drySection">
+        <div class="temp">70&#176;C消杀温度</div>
+        <div class="temp2"><span>70&#176;C</span>平均温度</div>
+        <div class="oil">剩余油量：0%</div>
+      </div>
+      <div class="drySection">
+        <div class="car">
+          当前车辆<input
+            type="text"
+            value="-"
+            class="carTxt"
+            disabled="disabled"
+          />
+        </div>
+      </div>
+      <div class="drySection">
+        <ul class="stateBg w3">
+          <li><a href="../detail/detail.html"></a>风机状态<img src="../../images/s1.png" class="spin" /></a></li>
+          <li><a href="../detail/detail.html">燃烧机状态<img src="../../images/s2.png" /></a></li>
+          <li><a href="../detail/detail.html">照明灯状态<img src="../../images/s4.png" /></a></li>
+        </ul>
+      </div>
+      <div class="drySection">
+        <h1 class="tt">详细温度（&#176;C）</h1>
+        <ul class="detailTemp w6">
+          <li>0</li>
+          <li>65.10</li>
+          <li>65.13</li>
+          <li>65.12</li>
+          <li>65.06</li>
+          <li>65.12</li>
+          <li>65.13</li>
+          <li>65.11</li>
+          <li>65.07</li>
+          <li>65.11</li>
+          <li>65.10</li>
+          <li>65.09</li>
+        </ul>
+        <div class="clear"></div>
+      </div>
+      <div class="drySection">
+        <ul class="funcBg w2">
+          <li><a href="#">消杀历史</a></li>
+          <li><a href="#">温度设置</a></li>
+          <li><a href="../alarm/alarm.html">报警历史</a></li>
+          <li><a href="#">管理员设置</a></li>
+        </ul>
+        <div class="clear"></div>
+      </div>
+      <div class="drySection">
+        <h1 class="tt">系统报警信息</h1>
+        <ul class="alarmBg">
+          <li><a href="#">安全门打开</a></li>
+          <li><a href="#">燃烧器1过载</a></li>
+          <li><a href="#">燃烧器2过载</a></li>
+          <li><a href="#">相序异常</a></li>
+          <li><a href="#">风机1过载</a></li>
+          <li><a href="#">风机2过载</a></li>
+        </ul>
+        <div class="clear"></div>
+      </div>
+    </article>
+		<div id="footer"></div>
+    <script>
+			$(document).ready(function() {
+				$('#footer').load('../footer/footer.html')	
+			})
+		</script>
+  </body>
+</html>

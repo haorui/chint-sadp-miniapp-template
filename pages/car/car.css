@@ -1,0 +1,9 @@
+.carbg{width: 100%; position: relative; margin: 0 auto; padding:10px 0 20px;background: #fff;box-shadow: 0 0 4px #ddd;}
+.form{width: 100%;position: relative;}
+.form dl{position:relative;font-size:100%; color:#555; width: 100%; margin-bottom:10px; border-bottom: 1px solid #f3f3f3;display: block; padding: 10px 10px 10px 20px; height: 50px;}
+.form dt{ margin-bottom:0px; width: 110px; padding: 0; padding-right: 5px;float:left;text-align:left; vertical-align:middle; }
+.form dd{ margin-bottom:5px; padding:0 1px; float:right; width:calc(100% - 115px); vertical-align:middle;min-height: 38px; text-align: right;margin-top: -12px;}
+.form dd input,.form dd select{text-align: right;border: 0;font-size:100%;}
+.form dd input{padding-right: 22px;}
+.form dd input:focus,.form dd select:focus{border: 0;}
+.btn{margin-top: 20px;}

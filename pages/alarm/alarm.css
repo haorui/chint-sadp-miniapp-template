@@ -1,0 +1,15 @@
+.detailbg{width: 100%; position: relative; margin: 0 auto; padding:10px;background: #fff;box-shadow: 0 0 4px #ddd;}
+.searchBg{position: relative;text-align:left;width: 100%;display: block;}
+.searchTxt{height: 36px;line-height: 36px; padding:0 40px 0 14px; position: relative; width: 100%;background: #eee;border-radius: 20px;border: 0;outline: none;}
+.searchBtn{ position: absolute; right: 10px; top: 8px;}
+.timebg{position: relative;text-align:center;width: 100%;display: block; }
+.timebg a{ display: inline-block; width: 46%; background: #237bdf;color: #fff;border-radius: 5px; margin: 0 1%; height: 38px; line-height: 38px; text-align: center;}
+.historyNav{position: relative;text-align:center;width: 100%;display: block; margin-bottom: -10px;}
+.historyNav a{ display: inline-block; width: 50%; height: 56px; line-height: 56px; text-align: center; float: left;}
+.historyNav .active{border-bottom: 2px solid #237bdf;}
+.listbg{width: 100%; position: relative; margin: 0 auto; padding:10px ;}
+.list{position:relative;color:#333; line-height:20px; width: 100%; margin-bottom: 10px; padding:10px;background: #fff;box-shadow: 0 0 4px #ddd;border-radius: 5px;padding:15px;}
+.list h1{width:100%;  font-size: 110%; font-weight: bold;text-overflow: ellipsis;white-space: nowrap; padding-left: 15px; color: #333; margin-bottom: 8px;position: relative;display: block;}
+.list h1::before{content: '';width: 5px; height: 16px; background: #01ca64; position: absolute; top:0; left: 0px;border-radius: 20px; margin-top: 2px;}
+.list p{font-size: 96%; color: #666; padding: 0 15px;position: relative;display: block; float: left;width: 100%; margin-bottom: 4px;}
+.list .p2{width: 50%;}

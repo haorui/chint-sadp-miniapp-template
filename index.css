@@ -1,0 +1,102 @@
+.bannerbg {
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+}
+.bannerbg img {
+  width: 100%;
+}
+/*itembg*/
+.itembg {
+  width: 100%;
+  background: #fff;
+  margin: 20px 0;
+  padding: 30px 10px;
+  position: relative;
+  justify-content: space-between;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.itembg .item {
+  width: 46%;
+  height: 100px;
+  background: #dcf0fb;
+  background-size: contain;
+  margin: 0 auto;
+  border-radius: 5px;
+  position: relative;
+  padding: 20px;
+  min-width: 200px;
+  text-align: center;
+}
+.itembg .item:nth-child(2n + 1) {
+  background: #e9f5ed !important;
+}
+.itembg .item h1 {
+  line-height: 50px;
+  font-size: 120%;
+  color: #555;
+  letter-spacing: 1px;
+  font-weight: bold;
+  display: inline-block;
+  transform: translateY(-50%);
+  position: relative;
+  margin-top: 0;
+  vertical-align: middle;
+}
+.itembg .item img {
+  width: 55px;
+  height: 55px;
+  margin-right: 25px;
+  display: inline-block;
+  position: relative;
+}
+.sitebg {
+  width: 100%;
+  position: relative;
+  margin: 10px auto;
+  padding: 10px 0 20px;
+  background: #fff;
+  box-shadow: 0 0 4px #ddd;
+}
+.section {
+  width: 100%;
+  position: relative;
+  border-bottom: 1px solid #eee;
+  padding: 10px 15px 20px;
+}
+.washcar {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  margin-top: -5px;
+}
+.tt {
+  font-size: 110%;
+  padding: 0 10px 0 20px;
+  line-height: 30px;
+  position: relative;
+}
+
+.ttRight {
+  position: absolute;
+  right: 15px;
+  top: 0;
+  margin-top: 14px;
+  font-size: 120%;
+  color: #14a368;
+}
+.ttRight img {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.ttP {
+  display: block;
+  position: relative;
+  text-align: right;
+  margin-top: 10px;
+  color: #666;
+}

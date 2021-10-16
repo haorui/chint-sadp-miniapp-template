@@ -1,0 +1,200 @@
+.washbg {
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+  padding: 10px 0 60px;
+  background: #fff;
+  box-shadow: 0 0 4px #ddd;
+}
+.section {
+  width: 100%;
+  position: relative;
+  border-bottom: 1px solid #eee;
+  padding: 10px 15px 20px;
+}
+.tt {
+  font-size: 110%;
+  padding: 0 10px 0 20px;
+  line-height: 30px;
+  position: relative;
+}
+.tt::after {
+  content: '';
+  width: 5px;
+  height: 16px;
+  background: #14a368;
+  position: absolute;
+  top: 0;
+  left: 4px;
+  border-radius: 20px;
+  margin-top: 7px;
+}
+.ttRight {
+  position: absolute;
+  right: 15px;
+  top: 0;
+  margin-top: 14px;
+  font-size: 120%;
+  color: #14a368;
+}
+.ttRight img {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.ttP {
+  display: block;
+  position: relative;
+  text-align: right;
+  margin-top: 10px;
+  color: #666;
+}
+.car {
+  position: relative;
+  padding: 5px 0px 0 20px;
+  font-size: 110%;
+  color: #555;
+  text-align: left;
+  line-height: 40px;
+}
+.car .carTxt {
+  background: #999;
+  color: #fff;
+  text-align: center;
+  height: 42px;
+  font-size: 100%;
+  float: right;
+  padding: 0 10px;
+  min-width: 100px;
+  max-width: 120px;
+}
+.stateRight {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+.stateRight li {
+  float: left;
+  padding-left: 15px;
+  position: relative;
+  margin-left: 10px;
+  color: #aaa;
+}
+.stateRight li::before {
+  content: '';
+  width: 12px;
+  height: 12px;
+  border-radius: 12px;
+  background: #ccc;
+  position: absolute;
+  left: 0;
+  display: block;
+  top: 4px;
+}
+.stateRight .s2::before {
+  content: '';
+  background: #1bbb84;
+}
+.stateRight .s2 {
+  color: #14a368;
+}
+.stateRight .s3::before {
+  content: '';
+  background: #31adf5;
+}
+.stateRight .s3 {
+  color: #008fe0;
+}
+.lc {
+  width: 380px;
+  position: relative;
+  margin: 10px auto 0;
+}
+.lc a {
+  float: left;
+  background: #2abb7f;
+  color: #fff;
+  border-radius: 30px;
+  height: 32px;
+  width: 70px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 90%;
+  margin: 10px 5px 5px;
+}
+.lc span {
+  width: 20px;
+  height: 20px;
+  background: url(../../images/arrow4.png) no-repeat center left;
+  float: left;
+  background-size: 100%;
+  margin-top: 15px;
+}
+.lc span.arrow2 {
+  width: 20px;
+  height: 20px;
+  background: url(../../images/arrow2.png) no-repeat center left;
+  float: left;
+  background-size: 100%;
+  margin-top: 8px;
+  margin-left: 330px;
+}
+.lc span.arrow3 {
+  width: 20px;
+  height: 20px;
+  background: url(../../images/arrow3.png) no-repeat center left;
+  float: left;
+  background-size: 100%;
+  margin-top: 15px;
+}
+.lc span.arrow4 {
+  width: 20px;
+  height: 20px;
+  background: url(../../images/arrow1.png) no-repeat center left;
+  float: left;
+  background-size: 100%;
+  margin-top: 8px;
+}
+.funcBg {
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+  padding: 10px 0 0;
+}
+.funcBg li {
+  float: left;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.funcBg li a {
+  width: 150px;
+  background: #237bdf;
+  color: #fff;
+  height: 42px;
+  line-height: 42px;
+  border-radius: 4px;
+  display: inline-block;
+  font-size: 110%;
+}
+.alarmBg {
+  width: 100%;
+  position: relative;
+  margin: 10px auto 0;
+  padding: 10px 0 0;
+}
+.alarmBg li {
+  float: left;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.alarmBg li a {
+  background: #e85757;
+  color: #fff;
+  border-radius: 4px;
+  display: inline-block;
+  font-size: 100%;
+  padding: 4px 10px;
+  line-height: 20px;
+}
