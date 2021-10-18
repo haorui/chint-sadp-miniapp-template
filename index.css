@@ -34,7 +34,7 @@
   background: #e9f5ed !important;
 }
 .itembg .item h1 {
-  line-height: 50px;
+  /*line-height: 50px;*/
   font-size: 120%;
   color: #555;
   letter-spacing: 1px;
@@ -52,6 +52,25 @@
   display: inline-block;
   position: relative;
 }
+.p2 {
+  font-size: 96%;
+  color: #666;
+  padding: 0 15px;
+  position: relative;
+  display: block;
+  float: left;
+  width: 100%;
+  margin-bottom: 4px;
+}
+
+.going {
+  color: #14a368;
+}
+
+.stoped {
+  color: #666;
+}
+
 .sitebg {
   width: 100%;
   position: relative;
